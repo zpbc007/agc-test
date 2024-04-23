@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import AGConnectCore
+import AGConnectDatabase
 
 @main
 struct agc_testApp: App {

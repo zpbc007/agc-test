@@ -1,0 +1,47 @@
+PODS:
+  - AGConnectCore (1.9.0.302):
+    - HMFoundation (~> 1.4)
+  - AGConnectCredential (1.9.0.302):
+    - AGConnectCore (~> 1.4)
+  - AGConnectDatabase (1.9.0.302):
+    - AGConnectCore (~> 1.4)
+    - AGConnectCredential (~> 1.4)
+    - HMFoundation (~> 1.4)
+    - OpenSSL-for-agc-clouddb (= 1.1.1n)
+    - "Protobuf-C++ (= 3.13.0)"
+    - SQLCipher (= 4.5.2)
+  - HMFoundation (1.9.0.302)
+  - OpenSSL-for-agc-clouddb (1.1.1n)
+  - "Protobuf-C++ (3.13.0)"
+  - SQLCipher (4.5.2):
+    - SQLCipher/standard (= 4.5.2)
+  - SQLCipher/common (4.5.2)
+  - SQLCipher/standard (4.5.2):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - AGConnectCore (~> 1.9.0.301)
+  - AGConnectDatabase (~> 1.9.0.301)
+
+SPEC REPOS:
+  trunk:
+    - AGConnectCore
+    - AGConnectCredential
+    - AGConnectDatabase
+    - HMFoundation
+    - OpenSSL-for-agc-clouddb
+    - "Protobuf-C++"
+    - SQLCipher
+
+SPEC CHECKSUMS:
+  AGConnectCore: 8080cbbee27357ab3d9d97b13d5e3be117eeba35
+  AGConnectCredential: 962f8a4abc33f3ae7b69bcf00f709b2a74096a1d
+  AGConnectDatabase: 13a4cf86bc45d7b130d4281e0b56e76fe75f355a
+  HMFoundation: 07a5cc092dc728e13400df5d24648f03ded00a95
+  OpenSSL-for-agc-clouddb: b38dd9552ea92d4f1213dd9d4473b034bd75f357
+  "Protobuf-C++": d88cc3857a39d356fdbc535a6d58b5f2dbef176f
+  SQLCipher: f5b4857434158b571a3ed3b10b3b43cd18ef5f67
+
+PODFILE CHECKSUM: 6a447f9f71cf945ee8c3b9be1b15cd0d8795ef12
+
+COCOAPODS: 1.15.2
